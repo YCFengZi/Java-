@@ -1,7 +1,8 @@
-import java.util.Arrays;
+package Simulateordernumbergeneration;
+
 import java.util.Scanner;
 
-public class Simulateordernumbergeneration {
+public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String str = input.next();

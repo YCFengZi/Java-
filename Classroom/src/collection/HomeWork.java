@@ -10,7 +10,7 @@ public class HomeWork {
         Student[] stu = new Student[n];
         StudentManagetool stuManagetool = new StudentManagetool();
         for (int i = 0; i < n; i++) {
-            stu[i] = new Student(input.nextInt(),input.next(),input.next(),input.next(),input.next());
+            stu[i] = new Student(input.nextInt(),input.next(),input.next(),input.next(),input.nextLine());
             stuManagetool.add(stu[i]);//增加
         }
         String updateName = input.next();

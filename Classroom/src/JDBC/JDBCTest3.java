@@ -11,7 +11,7 @@ public class JDBCTest3 {
         //3:执行语句
         String sql = "INSERT INTO books(bookid,title,author,typeid,price,publisher) VALUES (?,?,?,?,?,?)";
         PreparedStatement statement = connection.prepareStatement(sql); //预编译
-        //对站位符填充值
+        //对占位符填充值
         statement.setInt(1,3);
         statement.setString(2,"海上提琴师");
         statement.setString(3,"吉尔伯特·博尔德");

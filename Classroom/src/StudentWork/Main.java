@@ -45,7 +45,7 @@ public class Main {
     }
     //É¾³ý
     private static void LibraryDelete(Scanner input, Connection connection) throws SQLException {
-        String libDelect = "DELETE FROM books WHERE bookid = ?";
+        String libDelete = "DELETE FROM books WHERE bookid = ?";
         PreparedStatement statement = connection.prepareStatement(libDelect);//Ô¤±àÒë
         statement.setInt(1, input.nextInt());
         int resultSet = statement.executeUpdate();

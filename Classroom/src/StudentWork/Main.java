@@ -12,7 +12,7 @@ public class Main {
         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3308/library","root","123456");//Á´½Ó
         //Ö´ÐÐÓï¾ä
 //        LibraryAdd(input, connection);
-//        LibraryDelect(input, connection);
+//        LibraryDelete(input, connection);
 //        LibraryUpdate(input, connection);
 //        LibrarySelect(connection);
         connection.close();
@@ -44,7 +44,7 @@ public class Main {
         statement.close();
     }
     //É¾³ý
-    private static void LibraryDelect(Scanner input, Connection connection) throws SQLException {
+    private static void LibraryDelete(Scanner input, Connection connection) throws SQLException {
         String libDelect = "DELETE FROM books WHERE bookid = ?";
         PreparedStatement statement = connection.prepareStatement(libDelect);//Ô¤±àÒë
         statement.setInt(1, input.nextInt());

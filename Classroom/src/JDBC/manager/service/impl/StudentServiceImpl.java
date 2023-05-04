@@ -51,14 +51,15 @@ public class StudentServiceImpl implements StudentServie {
         PreparedStatement statement = null;
         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3308/student", "root", "123456");
         try {
-            String sql = "UPDATE student SET name = ?,age = ?,gander = ?,address = ?,birthday = ? WHERE id = ?";
+            String sql = "UPDATE student SET id = ?,name = ?,age = ?,gander = ?,address = ?,birthday = ? WHERE id = ?";
             statement = connection.prepareStatement(sql);
-            statement.setString(1, student.getName());
-            statement.setInt(2, student.getAge());
-            statement.setString(3, student.getGander());
-            statement.setString(4, student.getAddress());
-            statement.setDate(5, student.getBirthday());
-            statement.setInt(6, index);
+            statement.setInt(1,student.getId());
+            statement.setString(2, student.getName());
+            statement.setInt(3, student.getAge());
+            statement.setString(4, student.getGander());
+            statement.setString(5, student.getAddress());
+            statement.setDate(6, student.getBirthday());
+            statement.setInt(7, index);
             int n = statement.executeUpdate();
             if (n > 0) {
                 return true;

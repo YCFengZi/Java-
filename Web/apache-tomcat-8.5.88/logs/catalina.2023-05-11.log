@@ -1,0 +1,485 @@
+11-May-2023 14:20:21.336 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.88
+11-May-2023 14:20:21.341 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Apr 14 2023 20:16:27 UTC
+11-May-2023 14:20:21.342 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.88.0
+11-May-2023 14:20:21.342 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 11
+11-May-2023 14:20:21.342 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+11-May-2023 14:20:21.342 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+11-May-2023 14:20:21.344 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Users\FengZi\.jdks\openjdk-19.0.2
+11-May-2023 14:20:21.344 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    19.0.2+7-44
+11-May-2023 14:20:21.345 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+11-May-2023 14:20:21.345 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     F:\Java代码\Web\apache-tomcat-8.5.88
+11-May-2023 14:20:21.345 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     F:\Java代码\Web\apache-tomcat-8.5.88
+11-May-2023 14:20:21.346 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+11-May-2023 14:20:21.347 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+11-May-2023 14:20:21.347 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+11-May-2023 14:20:21.347 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-May-2023 14:20:21.347 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-May-2023 14:20:21.349 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=F:\Java代码\Web\apache-tomcat-8.5.88\conf\logging.properties
+11-May-2023 14:20:21.349 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2023 14:20:21.349 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2023 14:20:21.350 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2023 14:20:21.350 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+11-May-2023 14:20:21.350 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=F:\Java代码\Web\apache-tomcat-8.5.88
+11-May-2023 14:20:21.351 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=F:\Java代码\Web\apache-tomcat-8.5.88
+11-May-2023 14:20:21.351 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=F:\Java代码\Web\apache-tomcat-8.5.88\temp
+11-May-2023 14:20:21.351 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.2]加载了基于APR的Apache Tomcat本机库[1.2.36]。
+11-May-2023 14:20:21.352 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [{4}]。
+11-May-2023 14:20:21.352 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+11-May-2023 14:20:21.358 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1t  7 Feb 2023]
+11-May-2023 14:20:21.429 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+11-May-2023 14:20:21.463 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 802 ms
+11-May-2023 14:20:21.523 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+11-May-2023 14:20:21.524 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.88]
+11-May-2023 14:20:21.536 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [F:\Java代码\Web\apache-tomcat-8.5.88\webapps\docs]
+11-May-2023 14:20:21.901 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[F:\Java代码\Web\apache-tomcat-8.5.88\webapps\docs]的部署已在[362]毫秒内完成
+11-May-2023 14:20:21.902 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [F:\Java代码\Web\apache-tomcat-8.5.88\webapps\examples]
+11-May-2023 14:20:22.289 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[F:\Java代码\Web\apache-tomcat-8.5.88\webapps\examples]的部署已在[387]毫秒内完成
+11-May-2023 14:20:22.290 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [F:\Java代码\Web\apache-tomcat-8.5.88\webapps\host-manager]
+11-May-2023 14:20:22.326 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[F:\Java代码\Web\apache-tomcat-8.5.88\webapps\host-manager]的部署已在[35]毫秒内完成
+11-May-2023 14:20:22.326 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [F:\Java代码\Web\apache-tomcat-8.5.88\webapps\manager]
+11-May-2023 14:20:22.362 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[F:\Java代码\Web\apache-tomcat-8.5.88\webapps\manager]的部署已在[36]毫秒内完成
+11-May-2023 14:20:22.363 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [F:\Java代码\Web\apache-tomcat-8.5.88\webapps\ROOT]
+11-May-2023 14:20:22.385 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[F:\Java代码\Web\apache-tomcat-8.5.88\webapps\ROOT]的部署已在[22]毫秒内完成
+11-May-2023 14:20:22.389 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+11-May-2023 14:20:22.462 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 997 ms
+11-May-2023 14:21:27.447 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+11-May-2023 14:21:27.449 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+11-May-2023 14:21:27.464 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+11-May-2023 14:21:27.486 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+11-May-2023 14:21:27.499 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+11-May-2023 14:44:02.926 警告 [main] org.apache.catalina.core.StandardContext.setPath 上下文路径必须是空字符串或以'/'开头，而不能以'/'结尾。路径[/]不符合这些条件，已更改为[]
+11-May-2023 14:44:02.999 严重 [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 178 column 9: 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+	org.xml.sax.SAXParseException; systemId: file:/F:/Java代码/Web/apache-tomcat-8.5.88/conf/server.xml; lineNumber: 178; columnNumber: 9; 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1695)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2899)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1496)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:618)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:669)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+11-May-2023 14:44:03.004 警告 [main] org.apache.catalina.startup.Catalina.load Catalina.start using conf/server.xml: 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+11-May-2023 14:44:03.006 严重 [main] org.apache.catalina.startup.Catalina.start Cannot start server. Server instance is not configured.
+11-May-2023 14:49:28.317 严重 [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 178 column 9: 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+	org.xml.sax.SAXParseException; systemId: file:/F:/Java代码/Web/apache-tomcat-8.5.88/conf/server.xml; lineNumber: 178; columnNumber: 9; 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1695)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2899)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1496)
+		at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:492)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:393)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:483)
+11-May-2023 14:49:34.219 警告 [main] org.apache.catalina.core.StandardContext.setPath 上下文路径必须是空字符串或以'/'开头，而不能以'/'结尾。路径[/]不符合这些条件，已更改为[]
+11-May-2023 14:49:34.289 严重 [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 178 column 9: 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+	org.xml.sax.SAXParseException; systemId: file:/F:/Java代码/Web/apache-tomcat-8.5.88/conf/server.xml; lineNumber: 178; columnNumber: 9; 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1695)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2899)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1496)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:618)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:669)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+11-May-2023 14:49:34.292 警告 [main] org.apache.catalina.startup.Catalina.load Catalina.start using conf/server.xml: 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+11-May-2023 14:49:34.294 严重 [main] org.apache.catalina.startup.Catalina.start Cannot start server. Server instance is not configured.
+11-May-2023 14:49:41.911 警告 [main] org.apache.catalina.core.StandardContext.setPath 上下文路径必须是空字符串或以'/'开头，而不能以'/'结尾。路径[/]不符合这些条件，已更改为[]
+11-May-2023 14:49:41.948 严重 [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 178 column 9: 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+	org.xml.sax.SAXParseException; systemId: file:/F:/Java代码/Web/apache-tomcat-8.5.88/conf/server.xml; lineNumber: 178; columnNumber: 9; 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1695)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2899)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1496)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:618)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:669)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+11-May-2023 14:49:41.950 警告 [main] org.apache.catalina.startup.Catalina.load Catalina.start using conf/server.xml: 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+11-May-2023 14:49:41.953 严重 [main] org.apache.catalina.startup.Catalina.start Cannot start server. Server instance is not configured.
+11-May-2023 14:50:05.987 严重 [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 178 column 9: 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+	org.xml.sax.SAXParseException; systemId: file:/F:/Java代码/Web/apache-tomcat-8.5.88/conf/server.xml; lineNumber: 178; columnNumber: 9; 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1695)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2899)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1496)
+		at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:492)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:393)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:483)
+11-May-2023 14:50:11.217 警告 [main] org.apache.catalina.core.StandardContext.setPath 上下文路径必须是空字符串或以'/'开头，而不能以'/'结尾。路径[/]不符合这些条件，已更改为[]
+11-May-2023 14:50:11.245 严重 [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 178 column 9: 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+	org.xml.sax.SAXParseException; systemId: file:/F:/Java代码/Web/apache-tomcat-8.5.88/conf/server.xml; lineNumber: 178; columnNumber: 9; 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1695)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2899)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1496)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:618)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:669)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+11-May-2023 14:50:11.248 警告 [main] org.apache.catalina.startup.Catalina.load Catalina.start using conf/server.xml: 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+11-May-2023 14:50:11.249 严重 [main] org.apache.catalina.startup.Catalina.start Cannot start server. Server instance is not configured.
+11-May-2023 14:50:17.090 警告 [main] org.apache.catalina.core.StandardContext.setPath 上下文路径必须是空字符串或以'/'开头，而不能以'/'结尾。路径[/]不符合这些条件，已更改为[]
+11-May-2023 14:50:17.122 严重 [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 178 column 9: 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+	org.xml.sax.SAXParseException; systemId: file:/F:/Java代码/Web/apache-tomcat-8.5.88/conf/server.xml; lineNumber: 178; columnNumber: 9; 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1695)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2899)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1496)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:618)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:669)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+11-May-2023 14:50:17.322 警告 [main] org.apache.catalina.startup.Catalina.load Catalina.start using conf/server.xml: 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+11-May-2023 14:50:17.324 严重 [main] org.apache.catalina.startup.Catalina.start Cannot start server. Server instance is not configured.
+11-May-2023 14:50:22.848 警告 [main] org.apache.catalina.core.StandardContext.setPath 上下文路径必须是空字符串或以'/'开头，而不能以'/'结尾。路径[/]不符合这些条件，已更改为[]
+11-May-2023 14:50:22.878 严重 [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 178 column 9: 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+	org.xml.sax.SAXParseException; systemId: file:/F:/Java代码/Web/apache-tomcat-8.5.88/conf/server.xml; lineNumber: 178; columnNumber: 9; 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1695)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2899)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1496)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:618)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:669)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+11-May-2023 14:50:22.880 警告 [main] org.apache.catalina.startup.Catalina.load Catalina.start using conf/server.xml: 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+11-May-2023 14:50:22.881 严重 [main] org.apache.catalina.startup.Catalina.start Cannot start server. Server instance is not configured.
+11-May-2023 14:50:28.560 严重 [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 178 column 9: 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+	org.xml.sax.SAXParseException; systemId: file:/F:/Java代码/Web/apache-tomcat-8.5.88/conf/server.xml; lineNumber: 178; columnNumber: 9; 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1695)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2899)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1496)
+		at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:492)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:393)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:483)
+11-May-2023 14:50:32.085 警告 [main] org.apache.catalina.core.StandardContext.setPath 上下文路径必须是空字符串或以'/'开头，而不能以'/'结尾。路径[/]不符合这些条件，已更改为[]
+11-May-2023 14:50:32.115 严重 [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 178 column 9: 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+	org.xml.sax.SAXParseException; systemId: file:/F:/Java代码/Web/apache-tomcat-8.5.88/conf/server.xml; lineNumber: 178; columnNumber: 9; 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1695)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2899)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1496)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:618)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:669)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+11-May-2023 14:50:32.117 警告 [main] org.apache.catalina.startup.Catalina.load Catalina.start using conf/server.xml: 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+11-May-2023 14:50:32.119 严重 [main] org.apache.catalina.startup.Catalina.start Cannot start server. Server instance is not configured.
+11-May-2023 14:51:04.700 警告 [main] org.apache.catalina.core.StandardContext.setPath 上下文路径必须是空字符串或以'/'开头，而不能以'/'结尾。路径[/]不符合这些条件，已更改为[]
+11-May-2023 14:51:04.733 严重 [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 178 column 9: 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+	org.xml.sax.SAXParseException; systemId: file:/F:/Java代码/Web/apache-tomcat-8.5.88/conf/server.xml; lineNumber: 178; columnNumber: 9; 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1695)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2899)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1496)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:618)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:669)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+11-May-2023 14:51:04.735 警告 [main] org.apache.catalina.startup.Catalina.load Catalina.start using conf/server.xml: 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+11-May-2023 14:51:04.737 严重 [main] org.apache.catalina.startup.Catalina.start Cannot start server. Server instance is not configured.
+11-May-2023 14:51:07.398 严重 [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 178 column 9: 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+	org.xml.sax.SAXParseException; systemId: file:/F:/Java代码/Web/apache-tomcat-8.5.88/conf/server.xml; lineNumber: 178; columnNumber: 9; 元素类型 "Context" 必须由匹配的结束标记 "</Context>" 终止。
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1695)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2899)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1496)
+		at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:492)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:393)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:483)
+11-May-2023 14:51:37.327 严重 [main] org.apache.catalina.startup.Catalina.stopServer 无法联系[localhost:8005]（基端口[8005]和偏移量[0]）。Tomcat可能不在运行。
+11-May-2023 14:51:40.835 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.88
+11-May-2023 14:51:40.838 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Apr 14 2023 20:16:27 UTC
+11-May-2023 14:51:40.839 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.88.0
+11-May-2023 14:51:40.839 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 11
+11-May-2023 14:51:40.839 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+11-May-2023 14:51:40.840 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+11-May-2023 14:51:40.841 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Users\FengZi\.jdks\openjdk-19.0.2
+11-May-2023 14:51:40.841 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    19.0.2+7-44
+11-May-2023 14:51:40.842 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+11-May-2023 14:51:40.842 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     F:\Java代码\Web\apache-tomcat-8.5.88
+11-May-2023 14:51:40.842 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     F:\Java代码\Web\apache-tomcat-8.5.88
+11-May-2023 14:51:40.843 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+11-May-2023 14:51:40.843 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+11-May-2023 14:51:40.844 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+11-May-2023 14:51:40.844 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-May-2023 14:51:40.845 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-May-2023 14:51:40.845 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=F:\Java代码\Web\apache-tomcat-8.5.88\conf\logging.properties
+11-May-2023 14:51:40.845 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2023 14:51:40.846 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2023 14:51:40.846 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2023 14:51:40.847 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+11-May-2023 14:51:40.847 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=F:\Java代码\Web\apache-tomcat-8.5.88
+11-May-2023 14:51:40.847 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=F:\Java代码\Web\apache-tomcat-8.5.88
+11-May-2023 14:51:40.848 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=F:\Java代码\Web\apache-tomcat-8.5.88\temp
+11-May-2023 14:51:40.848 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.2]加载了基于APR的Apache Tomcat本机库[1.2.36]。
+11-May-2023 14:51:40.848 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [{4}]。
+11-May-2023 14:51:40.849 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+11-May-2023 14:51:40.855 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1t  7 Feb 2023]
+11-May-2023 14:51:40.910 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+11-May-2023 14:51:40.937 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 705 ms
+11-May-2023 14:51:40.993 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+11-May-2023 14:51:40.994 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.88]
+11-May-2023 14:51:41.004 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [F:\Java代码\Web\apache-tomcat-8.5.88\webapps\docs]
+11-May-2023 14:51:41.351 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[F:\Java代码\Web\apache-tomcat-8.5.88\webapps\docs]的部署已在[343]毫秒内完成
+11-May-2023 14:51:41.352 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [F:\Java代码\Web\apache-tomcat-8.5.88\webapps\examples]
+11-May-2023 14:51:41.710 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[F:\Java代码\Web\apache-tomcat-8.5.88\webapps\examples]的部署已在[359]毫秒内完成
+11-May-2023 14:51:41.710 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [F:\Java代码\Web\apache-tomcat-8.5.88\webapps\host-manager]
+11-May-2023 14:51:41.743 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[F:\Java代码\Web\apache-tomcat-8.5.88\webapps\host-manager]的部署已在[33]毫秒内完成
+11-May-2023 14:51:41.744 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [F:\Java代码\Web\apache-tomcat-8.5.88\webapps\manager]
+11-May-2023 14:51:41.775 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[F:\Java代码\Web\apache-tomcat-8.5.88\webapps\manager]的部署已在[31]毫秒内完成
+11-May-2023 14:51:41.776 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [F:\Java代码\Web\apache-tomcat-8.5.88\webapps\ROOT]
+11-May-2023 14:51:41.794 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[F:\Java代码\Web\apache-tomcat-8.5.88\webapps\ROOT]的部署已在[18]毫秒内完成
+11-May-2023 14:51:41.795 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [F:\Java代码\Web\apache-tomcat-8.5.88\webapps\test]
+11-May-2023 14:51:41.823 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[F:\Java代码\Web\apache-tomcat-8.5.88\webapps\test]的部署已在[27]毫秒内完成
+11-May-2023 14:51:41.826 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+11-May-2023 14:51:41.900 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 959 ms
+11-May-2023 14:52:39.188 严重 [main] org.apache.catalina.startup.Catalina.stopServer 无法联系[localhost:8005]（基端口[8005]和偏移量[0]）。Tomcat可能不在运行。
+11-May-2023 14:52:42.261 警告 [main] org.apache.catalina.core.StandardContext.setPath 上下文路径必须是空字符串或以'/'开头，而不能以'/'结尾。路径[/]不符合这些条件，已更改为[]
+11-May-2023 14:52:42.287 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.88
+11-May-2023 14:52:42.287 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Apr 14 2023 20:16:27 UTC
+11-May-2023 14:52:42.287 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.88.0
+11-May-2023 14:52:42.288 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 11
+11-May-2023 14:52:42.288 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+11-May-2023 14:52:42.289 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+11-May-2023 14:52:42.289 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Users\FengZi\.jdks\openjdk-19.0.2
+11-May-2023 14:52:42.289 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    19.0.2+7-44
+11-May-2023 14:52:42.290 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+11-May-2023 14:52:42.290 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     F:\Java代码\Web\apache-tomcat-8.5.88
+11-May-2023 14:52:42.290 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     F:\Java代码\Web\apache-tomcat-8.5.88
+11-May-2023 14:52:42.292 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+11-May-2023 14:52:42.293 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+11-May-2023 14:52:42.293 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+11-May-2023 14:52:42.294 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-May-2023 14:52:42.294 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-May-2023 14:52:42.294 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=F:\Java代码\Web\apache-tomcat-8.5.88\conf\logging.properties
+11-May-2023 14:52:42.295 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2023 14:52:42.295 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2023 14:52:42.295 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2023 14:52:42.295 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+11-May-2023 14:52:42.296 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=F:\Java代码\Web\apache-tomcat-8.5.88
+11-May-2023 14:52:42.296 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=F:\Java代码\Web\apache-tomcat-8.5.88
+11-May-2023 14:52:42.296 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=F:\Java代码\Web\apache-tomcat-8.5.88\temp
+11-May-2023 14:52:42.296 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.2]加载了基于APR的Apache Tomcat本机库[1.2.36]。
+11-May-2023 14:52:42.297 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [{4}]。
+11-May-2023 14:52:42.297 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+11-May-2023 14:52:42.303 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1t  7 Feb 2023]
+11-May-2023 14:52:42.352 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+11-May-2023 14:52:42.385 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 778 ms
+11-May-2023 14:52:42.442 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+11-May-2023 14:52:42.442 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.88]
+11-May-2023 14:52:42.764 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [F:\Java代码\Web\apache-tomcat-8.5.88\webapps\docs]
+11-May-2023 14:52:42.799 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[F:\Java代码\Web\apache-tomcat-8.5.88\webapps\docs]的部署已在[32]毫秒内完成
+11-May-2023 14:52:42.800 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [F:\Java代码\Web\apache-tomcat-8.5.88\webapps\examples]
+11-May-2023 14:52:43.145 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[F:\Java代码\Web\apache-tomcat-8.5.88\webapps\examples]的部署已在[344]毫秒内完成
+11-May-2023 14:52:43.145 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [F:\Java代码\Web\apache-tomcat-8.5.88\webapps\host-manager]
+11-May-2023 14:52:43.188 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[F:\Java代码\Web\apache-tomcat-8.5.88\webapps\host-manager]的部署已在[43]毫秒内完成
+11-May-2023 14:52:43.189 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [F:\Java代码\Web\apache-tomcat-8.5.88\webapps\manager]
+11-May-2023 14:52:43.233 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[F:\Java代码\Web\apache-tomcat-8.5.88\webapps\manager]的部署已在[45]毫秒内完成
+11-May-2023 14:52:43.233 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [F:\Java代码\Web\apache-tomcat-8.5.88\webapps\test]
+11-May-2023 14:52:43.259 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[F:\Java代码\Web\apache-tomcat-8.5.88\webapps\test]的部署已在[24]毫秒内完成
+11-May-2023 14:52:43.264 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+11-May-2023 14:52:43.361 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 974 ms
+11-May-2023 14:53:36.628 严重 [main] org.apache.catalina.startup.Catalina.stopServer 无法联系[localhost:8005]（基端口[8005]和偏移量[0]）。Tomcat可能不在运行。
+11-May-2023 14:53:40.072 警告 [main] org.apache.catalina.core.StandardContext.setPath 上下文路径必须是空字符串或以'/'开头，而不能以'/'结尾。路径[/]不符合这些条件，已更改为[]
+11-May-2023 14:53:40.096 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.88
+11-May-2023 14:53:40.096 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Apr 14 2023 20:16:27 UTC
+11-May-2023 14:53:40.096 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.88.0
+11-May-2023 14:53:40.098 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 11
+11-May-2023 14:53:40.098 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+11-May-2023 14:53:40.098 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+11-May-2023 14:53:40.098 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Users\FengZi\.jdks\openjdk-19.0.2
+11-May-2023 14:53:40.098 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    19.0.2+7-44
+11-May-2023 14:53:40.098 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+11-May-2023 14:53:40.099 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     F:\Java代码\Web\apache-tomcat-8.5.88
+11-May-2023 14:53:40.099 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     F:\Java代码\Web\apache-tomcat-8.5.88
+11-May-2023 14:53:40.101 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+11-May-2023 14:53:40.101 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+11-May-2023 14:53:40.101 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+11-May-2023 14:53:40.102 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-May-2023 14:53:40.102 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-May-2023 14:53:40.102 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=F:\Java代码\Web\apache-tomcat-8.5.88\conf\logging.properties
+11-May-2023 14:53:40.103 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2023 14:53:40.103 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2023 14:53:40.103 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2023 14:53:40.103 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+11-May-2023 14:53:40.104 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=F:\Java代码\Web\apache-tomcat-8.5.88
+11-May-2023 14:53:40.104 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=F:\Java代码\Web\apache-tomcat-8.5.88
+11-May-2023 14:53:40.104 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=F:\Java代码\Web\apache-tomcat-8.5.88\temp
+11-May-2023 14:53:40.104 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.2]加载了基于APR的Apache Tomcat本机库[1.2.36]。
+11-May-2023 14:53:40.105 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [{4}]。
+11-May-2023 14:53:40.105 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+11-May-2023 14:53:40.111 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1t  7 Feb 2023]
+11-May-2023 14:53:40.161 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-80"]
+11-May-2023 14:53:40.189 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 779 ms
+11-May-2023 14:53:40.246 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+11-May-2023 14:53:40.247 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.88]
+11-May-2023 14:53:40.685 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [F:\Java代码\Web\apache-tomcat-8.5.88\webapps\docs]
+11-May-2023 14:53:40.731 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[F:\Java代码\Web\apache-tomcat-8.5.88\webapps\docs]的部署已在[42]毫秒内完成
+11-May-2023 14:53:40.731 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [F:\Java代码\Web\apache-tomcat-8.5.88\webapps\examples]
+11-May-2023 14:53:41.159 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[F:\Java代码\Web\apache-tomcat-8.5.88\webapps\examples]的部署已在[427]毫秒内完成
+11-May-2023 14:53:41.159 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [F:\Java代码\Web\apache-tomcat-8.5.88\webapps\host-manager]
+11-May-2023 14:53:41.206 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[F:\Java代码\Web\apache-tomcat-8.5.88\webapps\host-manager]的部署已在[47]毫秒内完成
+11-May-2023 14:53:41.207 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [F:\Java代码\Web\apache-tomcat-8.5.88\webapps\manager]
+11-May-2023 14:53:41.265 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[F:\Java代码\Web\apache-tomcat-8.5.88\webapps\manager]的部署已在[58]毫秒内完成
+11-May-2023 14:53:41.265 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [F:\Java代码\Web\apache-tomcat-8.5.88\webapps\test]
+11-May-2023 14:53:41.291 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[F:\Java代码\Web\apache-tomcat-8.5.88\webapps\test]的部署已在[26]毫秒内完成
+11-May-2023 14:53:41.299 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-80"]
+11-May-2023 14:53:41.392 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1201 ms
+11-May-2023 14:55:52.391 严重 [main] org.apache.catalina.startup.Catalina.stopServer 无法联系[localhost:8005]（基端口[8005]和偏移量[0]）。Tomcat可能不在运行。

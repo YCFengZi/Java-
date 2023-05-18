@@ -6,6 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="0437d265-9f73-4239-a50e-58f7cce394f0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/webApp/target/classes/net/zjitc/servlet/AServelt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/webApp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/webApp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/webApp/target/webApp/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/webApp/target/webApp/WEB-INF/classes/net/zjitc/servlet/AServelt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/webApp/target/webApp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/webApp/target/webApp/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/webApp/target/webApp/test.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/webApp/target/webApp/web/WEB-INF/web.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +57,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit3&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Java代码/ClassCode/Code&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -132,6 +142,8 @@
       <workItem from="1683786243455" duration="20000" />
       <workItem from="1683789967609" duration="10000" />
       <workItem from="1684136438515" duration="835000" />
+      <workItem from="1684375501223" duration="78000" />
+      <workItem from="1684387572328" duration="16000" />
     </task>
     <servers />
   </component>
